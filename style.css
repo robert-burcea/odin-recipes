@@ -1,4 +1,18 @@
-.recipe-image {
-    height:50px;
-    width:50px;
+.card {
+    border-style: solid;
+    border-radius: 5px;
+    border-color:rgb(255, 159, 69);
+    box-shadow: 10px -10px 10px gray;
+}
+.image {
+    border-style: solid;
+    border-radius: 5px;
+    border-color:rgb(255, 159, 69);
+    margin:0 auto;
+}
+h1 {
+    color:rgb(252, 79, 79);
+}
+h2 {
+    color:rgb(247, 110, 17);
 }

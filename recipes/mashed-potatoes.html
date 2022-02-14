@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" src="../style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,19 +16,31 @@
 
 <body>
     <h1>Mashed Potatoes</h1>
-    <img class="recipe-image" src="https://www.thespruceeats.com/thmb/aV3a6phN-0r_0hsFnrMb5ezHG1g=/3000x3000/smart/filters:no_upscale()/easy-microwave-mashed-potatoes-3059678_hero-01-520a91abceb44719ae5a24a179af8645.jpg" 
-    alt="mashed potatoes image"
-    width="300"
-    heigth="300">
+    <img class="recipe-image image" id="image"
+        src="https://www.thespruceeats.com/thmb/aV3a6phN-0r_0hsFnrMb5ezHG1g=/3000x3000/smart/filters:no_upscale()/easy-microwave-mashed-potatoes-3059678_hero-01-520a91abceb44719ae5a24a179af8645.jpg"
+        alt="mashed potatoes image" width="300" heigth="300"
+        onmouseover="transform()"
+        onmouseout="reset()">
     <h2>This is a very easy to make, delicious side dish for any event.</h2>
     <h3>Ingredients</h3>
-    <ul>
+    <ul class="card">
         <li>8 to 10 medium potatoes</li>
         <li>1 teaspoon salt</li>
         <li>2 tablespoons butter</li>
         <li>dash of pepper</li>
         <li>1/4 cup hot milk</li>
     </ul>
+    <h3>Steps</h3>
+    <ol class="card">
+        <li>Place potatoes in large saucepan; add enough water to cover. Add 3/4 teaspoon of the salt.
+            Bring to a boil. Reduce heat to medium-low; cover loosely and boil gently for 15 to 20
+            minutes or until potatoes break apart easily when pierced with fork. Drain well. </li>
+        <li>Return potatoes to saucepan; shake saucepan gently over low heat for 1 to 2 minutes
+            to evaporate any excess moisture. </li>
+        <li>Mash potatoes with potato masher until no lumps remain. Add butter, pepper and remaining 
+            1/4 teaspoon salt; continue mashing, gradually adding enough milk to make potatoes smooth 
+            and creamy. </li>
+    </ol>
 </body>
 
 </html>
